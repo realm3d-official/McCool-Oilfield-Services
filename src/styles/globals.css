@@ -17,8 +17,8 @@
   --line: #2A2A2A;
   
   /* Original tokens */
-  --background: #ffffff;
-  --foreground: oklch(0.145 0 0);
+  --background: var(--primary-background);
+--foreground: var(--text-light);
   --card: #ffffff;
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
