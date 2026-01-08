@@ -600,11 +600,10 @@ export default function Home() {
             <div>
               <h3 className="text-[#F3F3F3] mb-4 font-['Montserrat'] text-xl">Quick Links</h3>
               <div className="space-y-2">
-                <Link to="/" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">Home</Link>
                 <Link to="/services" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">Services</Link>
                 <Link to="/about" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">About</Link>
-                <Link to="/#safety" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">Safety</Link>
-                <Link to="/#contact" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">Contact</Link>
+                <Link to="/gallery" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">Gallery</Link>
+                <Link to="/contact" className="block text-[#B0B0B0] hover:text-[#B6281A] transition-colors font-['Inter']">Contact</Link>
               </div>
             </div>
             
